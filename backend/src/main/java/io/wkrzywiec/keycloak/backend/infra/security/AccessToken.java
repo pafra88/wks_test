@@ -18,7 +18,7 @@ import java.util.stream.StreamSupport;
 import static java.util.Objects.isNull;
 
 public record AccessToken(String value) {
-
+//sto su mio_branche_test
     public static final String BEARER = "Bearer ";
 
     public String getValue() {
